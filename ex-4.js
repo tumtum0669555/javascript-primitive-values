@@ -3,5 +3,7 @@
 
 let numberOfSoldProduct = 12000;
 let numberOfProductInStock = undefined;
-
+let x = (numberOfSoldProduct / numberOfProductInStock) * 100;
 console.log((numberOfSoldProduct / numberOfProductInStock) * 100);
+console.log(x);
+//Answer : NaN
